@@ -500,14 +500,14 @@ MOBILE
 @media (max-width: 767px) {
   .portfolio-card {
     width: 65vw;
-    height: 20vh;
+    height: 28vh;
   }
 }
 
 /* ------------------
 TABLET (NEST HUB)
 --------------------- */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024.98px) {
   .portfolio-card {
     width: 40vw;
     height: 40vh;
@@ -521,5 +521,15 @@ TABLET (IPAD)
   .portfolio-card {
     width: 50vw;
     height: 20vh;
+  }
+}
+
+/* ---------------------
+EXTRA EXTRA LARGE SCREEN
+------------------------*/
+@media (min-width: 1800px) {
+  .portfolio-card {
+    width: 13vw;
+    height: 27vh;
   }
 }
